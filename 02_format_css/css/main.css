@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+@font-face {
+    font-family:'FromCartoonBlocks';
+    src: url(../fonts/FromCartoonBlocks.ttf);
+}
+
+
+* {
+    color: darkblue;
+}
+
+p {
+    color: green;
+}
+
+
+
+.style-text {
+    color: orange;
+}
+
+#text {
+    color: red;
+}
+
+.format {
+    color: purple;
+    font-size: 24px;
+    font-style: italic;
+    /*normal*/
+    font-weight: bold normal - 400, bold=700, 100 - 900;
+    /* font-family:'Times New Roman', Times, serif; */
+    /* font-family: "Spicy Rice", serif; */
+    /* font-family:'FromCartoonBlocks'; */
+    /* text-decoration:underline wavy blue;  underline;overline;line-through */
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 50px;
+    /* word-spacing: 50px;
+    letter-spacing: 10px; */
+    line-height: 36px;
+    /* border: double 10px pink; */
+    /* border-top: dotted 10px red;
+    border-bottom: dashed 10px rgb(173, 47, 251);
+    border-left: solid 50px black;
+    border-right:double 20px grey; */
+    border: double 20px;
+    /* border-style:double solid dashed dotted; 
+    border-color: red green yellow blue;
+    border-width: 5px 10px 20px 30px; */
+    background-color: plum;
+    /* padding: 50px 20px 100px 200px; */
+    /* padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 200px; */
+    padding: 20px;
+    margin: 50px;
+    /* border-radius: 50px 200px 100px 20px; */
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow:5px 5px 15px #000;
+    text-transform: capitalize;
+}
