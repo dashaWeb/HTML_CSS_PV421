@@ -1,0 +1,26 @@
+.list-1,.list-2,.list-3{
+    font-size: 30px;
+}
+
+.list-1{
+    list-style-type: disclosure-closed;
+}
+.list-2{
+    list-style-type:hiragana;
+}
+.list-3{
+    list-style-image: url(../img/heart-icon.png);
+}
+.list-4{
+    list-style-position: inside;
+}
+dl{
+ background-color: pink;   
+}
+dt{
+    background-color: blueviolet;
+}
+dd{
+    background-color: gold;
+    
+}

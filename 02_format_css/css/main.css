@@ -65,3 +65,7 @@ p {
     box-shadow:5px 5px 15px #000;
     text-transform: capitalize;
 }
+
+.dn{
+    color:green;
+}
