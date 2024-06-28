@@ -19,8 +19,10 @@ dl{
 }
 dt{
     background-color: blueviolet;
+    padding: 10px;
 }
 dd{
     background-color: gold;
-    
+    margin: 0;
+    padding: 5px;
 }
