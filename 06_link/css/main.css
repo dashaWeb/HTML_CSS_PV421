@@ -1,0 +1,90 @@
+/* a{
+    font-size: 30px;
+}
+a:link{
+    background-color: rgb(7, 76, 113);
+    color:#fff;
+    padding: 10px;
+    text-decoration: none;
+}
+a:visited{
+    background-color: rgb(119, 4, 109);
+    color: #fff;
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    color:#000;
+    box-shadow: 0 0 5px #000;
+}
+a:active{
+    background-color: red;
+    color: #fff;
+} */
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+.menu-1>li{
+    float: left;
+}
+.menu-3 li{
+    display: inline-block;  
+}
+a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;  
+}
+.menu-1 .menu-2 li{
+    display: block;
+}
+.menu-1 .menu-2{
+    display: none;
+}
+.menu-1>li:hover .menu-2{
+    display: block;
+}
+.menu-1 a{
+    border: solid #46bbb0 1px;
+     background: -webkit-linear-gradient(top, rgba(137,244,233,1) 0%, rgba(57,182,177,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+.menu-1 a:hover{
+    background: -webkit-linear-gradient(top, rgba(20,210,191,1) 0%, rgba(34,109,106,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+.menu-2 a{
+    border: solid  rgba(58,116,182,1) 1px;
+    background: -webkit-linear-gradient(top, rgba(138,195,244,1) 0%, rgba(58,116,182,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+.menu-2 a:hover{
+    background: -webkit-linear-gradient(top, rgba(20,121,210,1) 0%, rgba(34,69,109,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+
+.menu-3 a{
+    border: solid  rgba(58,116,182,1) 1px;
+    background: -webkit-linear-gradient(top, rgba(138,195,244,1) 0%, rgba(58,116,182,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+.menu-3 a:hover{
+    background: -webkit-linear-gradient(top, rgba(20,121,210,1) 0%, rgba(34,69,109,1) 100%); /* Chrome10+,Safari5.1+ */
+}
+ol{
+    list-style-type: none;
+    padding-left: 0;
+}
+ol a{
+    color: black;
+    font-size: 36px;
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: solid rgb(240, 216, 185);
+}
+ol a:hover{
+    color: red;
+    border-left:solid red;
+}
