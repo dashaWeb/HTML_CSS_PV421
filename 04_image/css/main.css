@@ -33,3 +33,8 @@ body{
 .p-6{
     clear: left;
 }
+.test{
+    border:double brown 5px;
+    width: 300px;
+    padding: 15px;
+}
