@@ -1,0 +1,126 @@
+.images img{
+    width: 300px;
+    margin: 5px;
+    cursor: pointer;
+    transition:transform 2s, filter 2s;
+}
+.images{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img-1:hover{
+    transform: translateX(-50px);
+}
+.img-2:hover{
+    transform: translateY(50px);
+}
+.img-3:hover{
+    transform: translate(50px,100px);
+}
+.img-4:hover{
+    transform: scaleX(1.2);
+}
+.img-6:hover{
+    transform: scaleY(.5);
+}
+.img-5:hover{
+    transform: scale(2) rotate(720deg);
+}
+.img-7{
+    transform-origin: top right;
+}
+.img-7:hover{
+    transform: scaleX(-1);
+}
+.img-8{
+    transform-origin: top left;
+}
+.img-8:hover{
+    transform: rotate(45deg);
+}
+.img-9:hover{
+    transform:skewX(45deg)
+}
+.img-10:hover{
+    transform:skewY(45deg)
+}
+.img-11{
+    filter: blur(10px);
+}
+.img-11:hover{
+    filter: blur(0px);
+}
+.img-12:hover{
+    filter: brightness(170%);
+}
+.img-13:hover{
+    filter: contrast(1.5);
+}
+.img-14:hover{
+    filter: drop-shadow(5px 5px 5px #000);
+}
+.img-15:hover{
+    filter: grayscale(1);
+}
+.img-16:hover{
+    filter: invert(1);
+}
+.img-17:hover{
+    filter: opacity(0.5);
+}
+.img-18:hover{
+    filter: saturate(50%)
+}
+.img-19:hover{
+    filter: sepia(1)
+}
+.img-20:hover{
+    filter: hue-rotate(180deg) drop-shadow(5px 5px 5px #000);
+}
+
+.img-21{
+    box-shadow: 5px 5px 5px #000;
+}
+.img-22{
+    filter: drop-shadow(5px 5px 5px red);
+}
+
+.container{
+    height: 500px;
+    border: solid 1px;
+}
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transform: translateX(0px);
+    margin-top: 0;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: colors 3s linear infinite alternate;
+}
+
+@keyframes colors{
+    0%{
+        background-color: green;
+        transform: translateX(0px);
+        margin-top: 0;
+    }
+    25%{
+        background-color: pink;
+        margin-top: 150px;
+    }
+    50%{
+        background-color: blue;
+        margin-top: 0;
+    }
+    75%{
+        background-color: yellow;
+        margin-top: 150px;
+    }
+    100%{
+        background-color: purple;
+        transform: translateX(750px);
+        margin-top: 0;
+    }
+}
