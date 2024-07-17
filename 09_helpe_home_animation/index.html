@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        img {
+            transition: 2s;
+            filter: opacity(0);
+        }
+
+        .img-1 {
+            transform: translateY(0);
+        }
+
+        .img-2 {
+            transform: scaleY(-1) translateY(-100px);
+        }
+
+        li {
+            /* display: inline-block;
+     */
+            float: left;
+            width: 150px;
+            border-bottom: 10px solid #4e4e4e;
+            cursor: pointer;
+            transition: 2s;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><img class="img-1" src="img/1.jpg" alt=""><img class="img-2" src="img/1.jpg" alt=""></li>
+        <li><img class="img-1" src="img/2.jpg" alt=""><img class="img-2" src="img/2.jpg" alt=""></li>
+        <li><img class="img-1" src="img/3.jpg" alt=""><img class="img-2" src="img/3.jpg" alt=""></li>
+        <li><img class="img-1" src="img/4.jpg" alt=""><img class="img-2" src="img/4.jpg" alt=""></li>
+        <li><img class="img-1" src="img/5.jpg" alt=""><img class="img-2" src="img/5.jpg" alt=""></li>
+        <li><img class="img-1" src="img/6.jpg" alt=""><img class="img-2" src="img/6.jpg" alt=""></li>
+        <li><img class="img-1" src="img/7.jpg" alt=""><img class="img-2" src="img/7.jpg" alt=""></li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+
+
+li:hover{
+    border-bottom: 10px solid #b5aeae;
+}
+li:hover .img-1{
+    transform: translateY(67px);
+    filter: opacity(1);
+}
+li:hover .img-2{
+    transform: scaleY(-.9) translateY(-63px);
+    filter: opacity(.3);
+}
