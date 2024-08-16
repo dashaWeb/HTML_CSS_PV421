@@ -1,0 +1,39 @@
+.container{
+    width: 960px;
+    height: 700px;
+    border: solid;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+    justify-content:center;  /*flex-start; flex-end; center; space-around;space-between;space-evenly;*/
+    align-items:flex-start;
+    /* align-content: space-between; */
+}
+.red,
+.pink,
+.yellow,
+.brown
+{
+    width: 240px;
+    height: 100px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+.red{
+    background-color: red;
+    order: 1;
+}
+.pink{
+    background-color: pink;
+    /* flex-grow: 2; */
+    /* align-self: center; */
+}
+.yellow{
+    background-color: yellow;
+    /* flex-shrink: 3; */
+}
+.brown{
+    background-color: brown;
+    order: -1;
+}
