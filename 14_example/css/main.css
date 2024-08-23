@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,minmax(100px, auto)) repeat(2, minmax(200px,auto)) repeat(3,minmax(150px,auto));
+    grid-template-areas: 'header'
+                            'menu'
+                            'hero'
+                            'main'
+                            'banner'
+                            'extra'
+                            'image';
+}
+
+header,
+nav,
+.hero,
+main,
+figure,
+article,
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+header,
+nav,
+.hero,
+main{
+    color: #fff;
+}
+
+header{
+    background-color: #101529;
+    grid-area: header;
+}
+nav{
+    background-color: #ef3d4b;
+    grid-area: menu;
+}
+.hero{
+    background-color: #4c86c6;
+    grid-area: hero;
+}
+main{
+    background-color: #24344b;
+    grid-area: main;
+}
+figure{
+    background-color: #c3e4e5;
+    grid-area: image;
+}
+article{
+    background-color: #4dbd97;
+    grid-area: extra;
+}
+.banner{
+    background-color: #fed269;
+    grid-area: banner;
+}
+
+@media (min-width:768px) {
+    .container{
+        width: 768px;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: minmax(100px, auto) minmax(450px, auto) minmax(400px,auto) repeat(2,minmax(200px, auto));
+        grid-template-areas: 'header header header'
+                            'hero hero hero'
+                            'menu main main'
+                            'menu banner banner'
+                            'menu extra image';
+    } 
+}
+@media (min-width:1024px) {
+    .container{
+        width: 1024px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: minmax(100px, auto) minmax(500px, auto) repeat(3,minmax(200px, auto));
+        grid-template-areas: 'header menu menu menu'
+                            'hero hero hero hero'
+                            'main main . image'
+                            'main main . extra'
+                            'banner banner banner banner';
+    }
+}
+
+/* header{
+    background-color: #101529;
+}
+nav{
+    background-color: #ef3d4b;
+    grid-column: auto/span 3;
+}
+.hero{
+    background-color: #4c86c6;
+    grid-column: auto/ span 4;
+}
+main{
+    background-color: #24344b;
+    grid-column: auto/ span 2;
+    grid-row: auto/ span 2;
+}
+figure{
+    background-color: #c3e4e5;
+    grid-column: 4/auto;
+}
+article{
+    background-color: #4dbd97;
+    grid-column: 4/auto;
+}
+.banner{
+    background-color: #fed269;
+    grid-column: auto/ span 4;
+} */

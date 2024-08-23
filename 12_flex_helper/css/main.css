@@ -1,0 +1,38 @@
+.red{
+    width: 960px;
+    height: 1000px;
+    display: flex;
+    background-color: red;
+    margin: 0 auto;
+    padding: 10px;
+}
+.orange{
+    background-color: orange;
+    flex-grow: 1;
+}
+.yellow{
+    background-color: yellow;
+    flex-grow: 4;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.green{
+    flex-grow: 1;
+    background-color: green;
+    display: flex;
+    padding: 10px;
+}
+.mr{
+    margin: 10px 0;
+}
+.blue{
+    background-color: blue;
+    flex-grow: 1;
+}
+.purple{
+    background-color: purple;
+    flex-grow: 2;
+    margin-left: 10px;
+}
